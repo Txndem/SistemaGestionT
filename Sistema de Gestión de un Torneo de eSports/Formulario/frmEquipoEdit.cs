@@ -188,4 +188,8 @@ namespace Sistema_de_Gestión_de_un_Torneo_de_eSports.Formulario
             }
         }
     }
+
+    // Método para registrar un equipo en una lista
+
+
 }

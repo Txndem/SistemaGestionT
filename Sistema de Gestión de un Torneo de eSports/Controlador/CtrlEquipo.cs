@@ -60,5 +60,38 @@ namespace Sistema_de_Gestión_de_un_Torneo_de_eSports.Controlador
                 .Contains(nombre.ToLower()))
                 .ToList();
         }
+
+        public bool Registrar(Equipo e, out string error)
+        {
+            error = null;
+
+            if (e == null)
+            {
+                error = "El equipo es nulo.";
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(e.Codigo))
+            {
+                error = "El código del equipo es obligatorio.";
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(e.Nombre))
+            {
+                error = "El nombre del equipo es obligatorio.";
+                return false;
+            }
+
+            // Evitar duplicados por código
+            if (ListaEquipos.Any(x => x.Codigo.Equals(e.Codigo, StringComparison.OrdinalIgnoreCase)))
+            {
+                error = $"Ya existe un equipo con el código '{e.Codigo}'.";
+                return false;
+            }
+
+            ListaEquipos.Add(e);
+            return true;
+        }
     }
 }

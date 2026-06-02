@@ -62,5 +62,7 @@ namespace Sistema_de_Gestión_de_un_Torneo_de_eSports.Controlador
                 .Contains(nombre.ToLower()))
                 .ToList();
         }
+
+
     }
 }

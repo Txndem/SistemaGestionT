@@ -1,3 +1,5 @@
 <Solution>
+  <Folder Name="/docs/" />
+  <Folder Name="/docs/specs/" />
   <Project Path="Sistema de Gestión de un Torneo de eSports/Sistema de Gestión de un Torneo de eSports.csproj" Id="38b33c96-1a96-4549-a6ca-1605da989f97" />
 </Solution>
