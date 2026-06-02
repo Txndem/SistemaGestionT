@@ -1,0 +1,1729 @@
+﻿{
+  "Version": 3,
+  "AreNodeDescriptionsVisible": true,
+  "LeafNodes": [
+    {
+      "Id": 3,
+      "ZIndex": 0,
+      "Name": "Arbitro",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Arbitro\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-169.3249,1089.9231",
+      "MemberAreaSize": "132,42.6",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Arbitro\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Arbitro",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "string Region",
+          "Stereotype": "Property",
+          "FullName": "public string Region { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Region\",\"C\":{\"K\":\"NamedType\",\"N\":\"Arbitro\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string ToString()",
+          "Stereotype": "Method",
+          "FullName": "public override string ToString()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ToString()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Arbitro\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "ZIndex": 1,
+      "Name": "Coach",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Coach\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "468.9701,982.9653",
+      "MemberAreaSize": "132,42.6",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Coach\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Coach",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "string Estrategia",
+          "Stereotype": "Property",
+          "FullName": "public string Estrategia { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Estrategia\",\"C\":{\"K\":\"NamedType\",\"N\":\"Coach\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string ToString()",
+          "Stereotype": "Method",
+          "FullName": "public override string ToString()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ToString()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Coach\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "ZIndex": 2,
+      "Name": "Equipo",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Equipo\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-116.3333,823.627",
+      "MemberAreaSize": "201.7667,113.8",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Equipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Equipo",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "Coach Coach",
+          "Stereotype": "Property",
+          "FullName": "public Coach Coach { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Coach\",\"C\":{\"K\":\"NamedType\",\"N\":\"Equipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Codigo",
+          "Stereotype": "Property",
+          "FullName": "public string Codigo { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Codigo\",\"C\":{\"K\":\"NamedType\",\"N\":\"Equipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "List<Jugador> ListaJugadores",
+          "Stereotype": "Property",
+          "FullName": "public List<Jugador> ListaJugadores { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"ListaJugadores\",\"C\":{\"K\":\"NamedType\",\"N\":\"Equipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Nombre",
+          "Stereotype": "Property",
+          "FullName": "public string Nombre { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Nombre\",\"C\":{\"K\":\"NamedType\",\"N\":\"Equipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Pais",
+          "Stereotype": "Property",
+          "FullName": "public string Pais { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Pais\",\"C\":{\"K\":\"NamedType\",\"N\":\"Equipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string ToString()",
+          "Stereotype": "Method",
+          "FullName": "public override string ToString()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ToString()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Equipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "ZIndex": 3,
+      "Name": "Estadistica",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Estadistica\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "403.6693,579.66",
+      "MemberAreaSize": "149.7267,78.2",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Estadistica\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Estadistica",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "int PartidasGanadas",
+          "Stereotype": "Property",
+          "FullName": "public int PartidasGanadas { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"PartidasGanadas\",\"C\":{\"K\":\"NamedType\",\"N\":\"Estadistica\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "int PartidasJugadas",
+          "Stereotype": "Property",
+          "FullName": "public int PartidasJugadas { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"PartidasJugadas\",\"C\":{\"K\":\"NamedType\",\"N\":\"Estadistica\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "int Puntos",
+          "Stereotype": "Property",
+          "FullName": "public int Puntos { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Puntos\",\"C\":{\"K\":\"NamedType\",\"N\":\"Estadistica\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string ToString()",
+          "Stereotype": "Method",
+          "FullName": "public override string ToString()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ToString()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Estadistica\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "ZIndex": 4,
+      "Name": "Jugador",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Jugador\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "218.2723,748.3421",
+      "MemberAreaSize": "160.38,78.2",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Jugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Jugador",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "Equipo Equipo",
+          "Stereotype": "Property",
+          "FullName": "public Equipo Equipo { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Equipo\",\"C\":{\"K\":\"NamedType\",\"N\":\"Jugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "Estadistica Estadistica",
+          "Stereotype": "Property",
+          "FullName": "public Estadistica Estadistica { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Estadistica\",\"C\":{\"K\":\"NamedType\",\"N\":\"Jugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Nick",
+          "Stereotype": "Property",
+          "FullName": "public string Nick { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Nick\",\"C\":{\"K\":\"NamedType\",\"N\":\"Jugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string ToString()",
+          "Stereotype": "Method",
+          "FullName": "public override string ToString()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ToString()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Jugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "ZIndex": 5,
+      "Name": "Partida",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Partida\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-500.6361,1014.353",
+      "MemberAreaSize": "132,149.4",
+      "IsPinned": true,
+      "CustomFillBrushKey": "LeafNodeViewModel_Class",
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Partida",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "Arbitro Arbitro",
+          "Stereotype": "Property",
+          "FullName": "public Arbitro Arbitro { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Arbitro\",\"C\":{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Codigo",
+          "Stereotype": "Property",
+          "FullName": "public string Codigo { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Codigo\",\"C\":{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "Equipo Equipo1",
+          "Stereotype": "Property",
+          "FullName": "public Equipo Equipo1 { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Equipo1\",\"C\":{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "Equipo Equipo2",
+          "Stereotype": "Property",
+          "FullName": "public Equipo Equipo2 { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Equipo2\",\"C\":{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "DateTime Fecha",
+          "Stereotype": "Property",
+          "FullName": "public DateTime Fecha { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Fecha\",\"C\":{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "int Score1",
+          "Stereotype": "Property",
+          "FullName": "public int Score1 { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Score1\",\"C\":{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "int Score2",
+          "Stereotype": "Property",
+          "FullName": "public int Score2 { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Score2\",\"C\":{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string ToString()",
+          "Stereotype": "Method",
+          "FullName": "public override string ToString()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ToString()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "ZIndex": 6,
+      "Name": "Persona",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Persona\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "175.001,1010.9577",
+      "MemberAreaSize": "132,60.4",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Persona\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Persona",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "string Codigo",
+          "Stereotype": "Property",
+          "FullName": "public string Codigo { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Codigo\",\"C\":{\"K\":\"NamedType\",\"N\":\"Persona\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Nombre",
+          "Stereotype": "Property",
+          "FullName": "public string Nombre { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Nombre\",\"C\":{\"K\":\"NamedType\",\"N\":\"Persona\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string ToString()",
+          "Stereotype": "Method",
+          "FullName": "public override string ToString()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ToString()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Persona\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "ZIndex": 7,
+      "Name": "Premio",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Premio\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-800.2019,1022.8458",
+      "MemberAreaSize": "132,60.4",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Premio\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Premio",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "string Nombre",
+          "Stereotype": "Property",
+          "FullName": "public string Nombre { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Nombre\",\"C\":{\"K\":\"NamedType\",\"N\":\"Premio\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "double Valor",
+          "Stereotype": "Property",
+          "FullName": "public double Valor { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Valor\",\"C\":{\"K\":\"NamedType\",\"N\":\"Premio\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string ToString()",
+          "Stereotype": "Method",
+          "FullName": "public override string ToString()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ToString()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Premio\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "ZIndex": 8,
+      "Name": "Servidor",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Servidor\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-275.4187,653.0472",
+      "MemberAreaSize": "132,60.4",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Servidor\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Servidor",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "string Nombre",
+          "Stereotype": "Property",
+          "FullName": "public string Nombre { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Nombre\",\"C\":{\"K\":\"NamedType\",\"N\":\"Servidor\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Region",
+          "Stereotype": "Property",
+          "FullName": "public string Region { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Region\",\"C\":{\"K\":\"NamedType\",\"N\":\"Servidor\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string ToString()",
+          "Stereotype": "Method",
+          "FullName": "public override string ToString()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ToString()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Servidor\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "ZIndex": 9,
+      "Name": "Torneo",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Torneo\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-824.382,725.6465",
+      "MemberAreaSize": "184.4067,131.6",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Torneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Torneo",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "string Codigo",
+          "Stereotype": "Property",
+          "FullName": "public string Codigo { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Codigo\",\"C\":{\"K\":\"NamedType\",\"N\":\"Torneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Juego",
+          "Stereotype": "Property",
+          "FullName": "public string Juego { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Juego\",\"C\":{\"K\":\"NamedType\",\"N\":\"Torneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "List<Equipo> ListaEquipos",
+          "Stereotype": "Property",
+          "FullName": "public List<Equipo> ListaEquipos { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"ListaEquipos\",\"C\":{\"K\":\"NamedType\",\"N\":\"Torneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "List<Partida> ListaPartidas",
+          "Stereotype": "Property",
+          "FullName": "public List<Partida> ListaPartidas { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"ListaPartidas\",\"C\":{\"K\":\"NamedType\",\"N\":\"Torneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Nombre",
+          "Stereotype": "Property",
+          "FullName": "public string Nombre { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Nombre\",\"C\":{\"K\":\"NamedType\",\"N\":\"Torneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "Premio Premio",
+          "Stereotype": "Property",
+          "FullName": "public Premio Premio { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Premio\",\"C\":{\"K\":\"NamedType\",\"N\":\"Torneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string ToString()",
+          "Stereotype": "Method",
+          "FullName": "public override string ToString()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ToString()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Torneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 41,
+      "ZIndex": 12,
+      "Name": "CtrlCoach",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Controlador.CtrlCoach\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "532.0848,332.5317",
+      "MemberAreaSize": "216.4233,96",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush2",
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"CtrlCoach\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Controlador.CtrlCoach",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "List<Coach> ListaCoaches",
+          "Stereotype": "Field",
+          "FullName": "public List<Coach> ListaCoaches",
+          "Description": "",
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaCoaches\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlCoach\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Editar(Coach coachEditado)",
+          "Stereotype": "Method",
+          "FullName": "public void Editar(Coach coachEditado)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Editar(Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Coach)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlCoach\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Eliminar(string codigo)",
+          "Stereotype": "Method",
+          "FullName": "public void Eliminar(string codigo)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Eliminar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlCoach\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Guardar(Coach c)",
+          "Stereotype": "Method",
+          "FullName": "public void Guardar(Coach c)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Guardar(Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Coach)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlCoach\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "List<Coach> Listar()",
+          "Stereotype": "Method",
+          "FullName": "public List<Coach> Listar()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Listar()\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlCoach\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 43,
+      "ZIndex": 13,
+      "Name": "CtrlEquipo",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Controlador.CtrlEquipo\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-125.3434,328.6832",
+      "MemberAreaSize": "226.4033,131.6",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush2",
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"CtrlEquipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Controlador.CtrlEquipo",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "BindingList<Equipo> ListaEquipos",
+          "Stereotype": "Field",
+          "FullName": "public BindingList<Equipo> ListaEquipos",
+          "Description": "",
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaEquipos\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlEquipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "Equipo Buscar(string codigo)",
+          "Stereotype": "Method",
+          "FullName": "public Equipo Buscar(string codigo)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Buscar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlEquipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Editar(Equipo equipoEditado)",
+          "Stereotype": "Method",
+          "FullName": "public void Editar(Equipo equipoEditado)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Editar(Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Equipo)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlEquipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Eliminar(string codigo)",
+          "Stereotype": "Method",
+          "FullName": "public void Eliminar(string codigo)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Eliminar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlEquipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "List<Equipo> Filtrar(string nombre)",
+          "Stereotype": "Method",
+          "FullName": "public List<Equipo> Filtrar(string nombre)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Filtrar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlEquipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Guardar(Equipo e)",
+          "Stereotype": "Method",
+          "FullName": "public void Guardar(Equipo e)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Guardar(Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Equipo)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlEquipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "BindingList<Equipo> Listar()",
+          "Stereotype": "Method",
+          "FullName": "public BindingList<Equipo> Listar()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Listar()\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlEquipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 45,
+      "ZIndex": 14,
+      "Name": "CtrlJugador",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Controlador.CtrlJugador\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "212.0125,328.1146",
+      "MemberAreaSize": "241.7967,131.6",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush2",
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"CtrlJugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Controlador.CtrlJugador",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "BindingList<Jugador> ListaJugadores",
+          "Stereotype": "Field",
+          "FullName": "public BindingList<Jugador> ListaJugadores",
+          "Description": "",
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaJugadores\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlJugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "Jugador Buscar(string codigo)",
+          "Stereotype": "Method",
+          "FullName": "public Jugador Buscar(string codigo)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Buscar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlJugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Editar(Jugador jugadorEditado)",
+          "Stereotype": "Method",
+          "FullName": "public void Editar(Jugador jugadorEditado)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Editar(Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Jugador)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlJugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Eliminar(string codigo)",
+          "Stereotype": "Method",
+          "FullName": "public void Eliminar(string codigo)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Eliminar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlJugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "List<Jugador> Filtrar(string nombre)",
+          "Stereotype": "Method",
+          "FullName": "public List<Jugador> Filtrar(string nombre)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Filtrar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlJugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Guardar(Jugador j)",
+          "Stereotype": "Method",
+          "FullName": "public void Guardar(Jugador j)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Guardar(Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Jugador)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlJugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "BindingList<Jugador> Listar()",
+          "Stereotype": "Method",
+          "FullName": "public BindingList<Jugador> Listar()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Listar()\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlJugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 47,
+      "ZIndex": 22,
+      "Name": "CtrlPartida",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Controlador.CtrlPartida\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-498.8764,327.1019",
+      "MemberAreaSize": "224.4367,167.2",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush2",
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"CtrlPartida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Controlador.CtrlPartida",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "Servidor Servidor",
+          "Stereotype": "Property",
+          "FullName": "public Servidor Servidor { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Servidor\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlPartida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "Partida Buscar(string codigo)",
+          "Stereotype": "Method",
+          "FullName": "public Partida Buscar(string codigo)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Buscar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlPartida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Editar(Partida partidaEditada)",
+          "Stereotype": "Method",
+          "FullName": "public void Editar(Partida partidaEditada)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Editar(Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Partida)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlPartida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void ConectarServidor(Servidor s)",
+          "Stereotype": "Method",
+          "FullName": "public void ConectarServidor(Servidor s)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ConectarServidor(Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Servidor)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlPartida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "BindingList<Partida> ListaPartidas",
+          "Stereotype": "Field",
+          "FullName": "public BindingList<Partida> ListaPartidas",
+          "Description": "",
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaPartidas\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlPartida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Eliminar(string codigo)",
+          "Stereotype": "Method",
+          "FullName": "public void Eliminar(string codigo)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Eliminar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlPartida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "List<Partida> Filtrar(string codigo)",
+          "Stereotype": "Method",
+          "FullName": "public List<Partida> Filtrar(string codigo)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Filtrar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlPartida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Guardar(Partida p)",
+          "Stereotype": "Method",
+          "FullName": "public void Guardar(Partida p)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Guardar(Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Partida)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlPartida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "BindingList<Partida> Listar()",
+          "Stereotype": "Method",
+          "FullName": "public BindingList<Partida> Listar()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Listar()\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlPartida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 51,
+      "ZIndex": 15,
+      "Name": "CtrlTorneo",
+      "Stereotype": "Class",
+      "ToolTip": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Controlador.CtrlTorneo\r\nassembly: Sistema de Gestión de un Torneo de eSports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-811.3738,326.5186",
+      "MemberAreaSize": "225.73,131.6",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush2",
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"CtrlTorneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class Sistema_de_Gestión_de_un_Torneo_de_eSports.Controlador.CtrlTorneo",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "BindingList<Torneo> ListaTorneos",
+          "Stereotype": "Field",
+          "FullName": "public BindingList<Torneo> ListaTorneos",
+          "Description": "",
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaTorneos\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlTorneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "Torneo Buscar(string codigo)",
+          "Stereotype": "Method",
+          "FullName": "public Torneo Buscar(string codigo)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Buscar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlTorneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Editar(Torneo torneoEditado)",
+          "Stereotype": "Method",
+          "FullName": "public void Editar(Torneo torneoEditado)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Editar(Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Torneo)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlTorneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Eliminar(string codigo)",
+          "Stereotype": "Method",
+          "FullName": "public void Eliminar(string codigo)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Eliminar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlTorneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "List<Torneo> Filtrar(string nombre)",
+          "Stereotype": "Method",
+          "FullName": "public List<Torneo> Filtrar(string nombre)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Filtrar(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlTorneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Guardar(Torneo t)",
+          "Stereotype": "Method",
+          "FullName": "public void Guardar(Torneo t)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Guardar(Sistema_de_Gestión_de_un_Torneo_de_eSports.Entidades.Torneo)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlTorneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "BindingList<Torneo> Listar()",
+          "Stereotype": "Method",
+          "FullName": "public BindingList<Torneo> Listar()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Listar()\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlTorneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    }
+  ],
+  "Connectors": [
+    {
+      "Id": 14,
+      "SourceId": 8,
+      "TargetId": 3,
+      "ZIndex": 36,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -368.63609394194378,
+          1118.4694583216863,
+          true
+        ],
+        [
+          -169.3249,
+          1131.8066246400303,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 16,
+      "SourceId": 5,
+      "TargetId": 4,
+      "ZIndex": 48,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          85.433322042475311,
+          928.20625983143077,
+          true
+        ],
+        [
+          468.97013859694562,
+          1014.4280124028933,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 18,
+      "SourceId": 7,
+      "TargetId": 5,
+      "ZIndex": 38,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          218.27231709980657,
+          836.22095066552072,
+          true
+        ],
+        [
+          85.433399999999992,
+          875.61189384050931,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 20,
+      "SourceId": 3,
+      "TargetId": 9,
+      "ZIndex": 10,
+      "Stereotype": "Inheritance",
+      "RoutePoints": [
+        [
+          -37.324882861563765,
+          1122.7930243151789,
+          true
+        ],
+        [
+          175.00101451889623,
+          1079.5877265226027,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 21,
+      "SourceId": 7,
+      "TargetId": 6,
+      "ZIndex": 40,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          366.88988318427937,
+          748.34207771047352,
+          true
+        ],
+        [
+          410.10503891344507,
+          707.85997903667464,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 23,
+      "SourceId": 12,
+      "TargetId": 10,
+      "ZIndex": 31,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -732.88091717257555,
+          907.2465,
+          true
+        ],
+        [
+          -733.77498742324781,
+          1022.8457789230121,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 25,
+      "SourceId": 4,
+      "TargetId": 9,
+      "ZIndex": 11,
+      "Stereotype": "Inheritance",
+      "RoutePoints": [
+        [
+          468.97013859694562,
+          1037.5481085852571,
+          true
+        ],
+        [
+          307.00101451889623,
+          1057.8748303374268,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 26,
+      "SourceId": 5,
+      "TargetId": 7,
+      "ZIndex": 44,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          85.433399999999992,
+          875.61189384050931,
+          true
+        ],
+        [
+          218.27231709980657,
+          836.22095066552072,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 29,
+      "SourceId": 7,
+      "TargetId": 9,
+      "ZIndex": 35,
+      "Stereotype": "Inheritance",
+      "RoutePoints": [
+        [
+          283.94499888006192,
+          876.54207771047345,
+          true
+        ],
+        [
+          253.50265313151175,
+          1010.9577,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 30,
+      "SourceId": 8,
+      "TargetId": 5,
+      "ZIndex": 29,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -368.63609394194378,
+          1081.2209939411555,
+          true
+        ],
+        [
+          -116.3333,
+          955.71186423571862,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 32,
+      "SourceId": 12,
+      "TargetId": 5,
+      "ZIndex": 27,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -639.97537596055076,
+          827.90619650390056,
+          false
+        ],
+        [
+          -116.33334462419134,
+          892.98843076585445,
+          false
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 34,
+      "SourceId": 12,
+      "TargetId": 8,
+      "ZIndex": 33,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -641.39815415459577,
+          907.2465,
+          true
+        ],
+        [
+          -500.63609394194378,
+          1048.0388028871166,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 54,
+      "SourceId": 41,
+      "TargetId": 4,
+      "ZIndex": 46,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          627.96936704016025,
+          478.53169978965013,
+          true
+        ],
+        [
+          542.78851903656289,
+          982.9653,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 56,
+      "SourceId": 43,
+      "TargetId": 5,
+      "ZIndex": 16,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -12.759808459657551,
+          510.28319978965015,
+          true
+        ],
+        [
+          -14.892515343120397,
+          823.627,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 58,
+      "SourceId": 45,
+      "TargetId": 7,
+      "ZIndex": 42,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          324.96239824269884,
+          509.71455965502696,
+          true
+        ],
+        [
+          304.07348589004607,
+          748.34207771047352,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 60,
+      "SourceId": 51,
+      "TargetId": 12,
+      "ZIndex": 18,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -706.16856143637483,
+          508.11855965502696,
+          true
+        ],
+        [
+          -724.51889643068421,
+          725.6465,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 64,
+      "SourceId": 47,
+      "TargetId": 8,
+      "ZIndex": 24,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -394.33907576265358,
+          544.3018793857799,
+          true
+        ],
+        [
+          -427.58457146614791,
+          1014.3529829617165,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 129,
+      "SourceId": 8,
+      "TargetId": 11,
+      "ZIndex": 20,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -379.30377705840112,
+          1014.3529829617165,
+          true
+        ],
+        [
+          -240.05404495457918,
+          763.4472,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 132,
+      "SourceId": 47,
+      "TargetId": 11,
+      "ZIndex": 23,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -316.03424126092943,
+          544.3018793857799,
+          true
+        ],
+        [
+          -245.3158994781829,
+          653.0472,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    }
+  ],
+  "Labels": [
+    {
+      "Id": 15,
+      "ConnectorId": 14,
+      "ZIndex": 37,
+      "AnchorKind": "End",
+      "AnchorVector": "-45.0977,-46.3926",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Arbitro",
+          "Tooltip": "public Arbitro Arbitro { get; set; }",
+          "CanBeHidden": true,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Arbitro\",\"C\":{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "ConnectorId": 16,
+      "ZIndex": 49,
+      "AnchorKind": "End",
+      "AnchorVector": "-30.1872,-51.4457",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Coach",
+          "Tooltip": "public Coach Coach { get; set; }",
+          "CanBeHidden": true,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Coach\",\"C\":{\"K\":\"NamedType\",\"N\":\"Equipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 19,
+      "ConnectorId": 18,
+      "ZIndex": 39,
+      "AnchorKind": "End",
+      "AnchorVector": "48.4607,24.4072",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Equipo",
+          "Tooltip": "public Equipo Equipo { get; set; }",
+          "CanBeHidden": true,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Equipo\",\"C\":{\"K\":\"NamedType\",\"N\":\"Jugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 22,
+      "ConnectorId": 21,
+      "ZIndex": 41,
+      "AnchorKind": "End",
+      "AnchorVector": "-43.3675,-34.4389",
+      "Size": "57.35,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Estadistica",
+          "Tooltip": "public Estadistica Estadistica { get; set; }",
+          "CanBeHidden": true,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Estadistica\",\"C\":{\"K\":\"NamedType\",\"N\":\"Jugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 24,
+      "ConnectorId": 23,
+      "ZIndex": 32,
+      "AnchorKind": "End",
+      "AnchorVector": "-23.1863,-42.5083",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Premio",
+          "Tooltip": "public Premio Premio { get; set; }",
+          "CanBeHidden": true,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Premio\",\"C\":{\"K\":\"NamedType\",\"N\":\"Torneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 27,
+      "ConnectorId": 26,
+      "ZIndex": 45,
+      "AnchorKind": "End",
+      "AnchorVector": "-45.9846,-25.1146",
+      "Size": "82.7,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "*",
+          "TextColumn2": "ListaJugadores",
+          "Tooltip": "public List<Jugador> ListaJugadores { get; set; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"ListaJugadores\",\"C\":{\"K\":\"NamedType\",\"N\":\"Equipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 31,
+      "ConnectorId": 30,
+      "ZIndex": 30,
+      "AnchorKind": "End",
+      "AnchorVector": "-41.3861,59.7799",
+      "Size": "56,29",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Equipo1",
+          "Tooltip": "public Equipo Equipo1 { get; set; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Equipo1\",\"C\":{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        },
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Equipo2",
+          "Tooltip": "public Equipo Equipo2 { get; set; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Equipo2\",\"C\":{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 33,
+      "ConnectorId": 32,
+      "ZIndex": 28,
+      "AnchorKind": "End",
+      "AnchorVector": "-32.5429,-33.6041",
+      "Size": "72.1433,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "*",
+          "TextColumn2": "ListaEquipos",
+          "Tooltip": "public List<Equipo> ListaEquipos { get; set; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"ListaEquipos\",\"C\":{\"K\":\"NamedType\",\"N\":\"Torneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 35,
+      "ConnectorId": 34,
+      "ZIndex": 34,
+      "AnchorKind": "End",
+      "AnchorVector": "-47.369,46.3055",
+      "Size": "72.69,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "*",
+          "TextColumn2": "ListaPartidas",
+          "Tooltip": "public List<Partida> ListaPartidas { get; set; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"ListaPartidas\",\"C\":{\"K\":\"NamedType\",\"N\":\"Torneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 55,
+      "ConnectorId": 54,
+      "ZIndex": 47,
+      "AnchorKind": "End",
+      "AnchorVector": "52.7213,-24.2348",
+      "Size": "75.4733,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "*",
+          "TextColumn2": "ListaCoaches",
+          "Tooltip": "public List<Coach> ListaCoaches",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaCoaches\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlCoach\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 57,
+      "ConnectorId": 56,
+      "ZIndex": 17,
+      "AnchorKind": "End",
+      "AnchorVector": "43.5085,-39.5985",
+      "Size": "72.1433,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "*",
+          "TextColumn2": "ListaEquipos",
+          "Tooltip": "public BindingList<Equipo> ListaEquipos",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaEquipos\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlEquipo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 59,
+      "ConnectorId": 58,
+      "ZIndex": 43,
+      "AnchorKind": "End",
+      "AnchorVector": "-46.7689,-28.0613",
+      "Size": "82.7,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "*",
+          "TextColumn2": "ListaJugadores",
+          "Tooltip": "public BindingList<Jugador> ListaJugadores",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaJugadores\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlJugador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 61,
+      "ConnectorId": 60,
+      "ZIndex": 19,
+      "AnchorKind": "End",
+      "AnchorVector": "74.2485,-27.8777",
+      "Size": "71.58,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "*",
+          "TextColumn2": "ListaTorneos",
+          "Tooltip": "public BindingList<Torneo> ListaTorneos",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaTorneos\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlTorneo\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 65,
+      "ConnectorId": 64,
+      "ZIndex": 26,
+      "AnchorKind": "End",
+      "AnchorVector": "-32.764,-42.6056",
+      "Size": "72.69,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "*",
+          "TextColumn2": "ListaPartidas",
+          "Tooltip": "public BindingList<Partida> ListaPartidas",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaPartidas\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlPartida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 130,
+      "ConnectorId": 129,
+      "ZIndex": 21,
+      "AnchorKind": "End",
+      "AnchorVector": "-2.0545,57.4534",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Servidor",
+          "Tooltip": "public Servidor Servidor { get; set; }",
+          "CanBeHidden": true,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Servidor\",\"C\":{\"K\":\"NamedType\",\"N\":\"Partida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 133,
+      "ConnectorId": 132,
+      "ZIndex": 25,
+      "AnchorKind": "End",
+      "AnchorVector": "-58.5945,-25.5827",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Servidor",
+          "Tooltip": "public Servidor Servidor { get; set; }",
+          "CanBeHidden": true,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Servidor\",\"C\":{\"K\":\"NamedType\",\"N\":\"CtrlPartida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sistema_de_Gestión_de_un_Torneo_de_eSports\",\"C\":{\"K\":\"Assembly\",\"N\":\"Sistema de Gestión de un Torneo de eSports\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    }
+  ]
+}
